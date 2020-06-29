@@ -19,3 +19,11 @@ RSpec.describe "products/index", :type => :view do
     expect(rendered).to include 'pears'
   end
 end
+# <%= form_for @cart do |f| %>
+
+#   <%= f.label :product %>
+#   <%= f.text_field :product %>
+  
+#   <%= f.submit %>
+  
+#   <% end %> -->
